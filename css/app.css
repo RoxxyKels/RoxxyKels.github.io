@@ -249,7 +249,15 @@ main{
       background-position: center;
       overflow: hidden;
 }
-
+#assignments {
+    display: grid;
+    grid-area: asg;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 50px 45px;
+    background: #000;
+    border-top: 1px solid #222;
+}
 /* LABELS */
 .contactForm label {
     display: block;
