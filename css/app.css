@@ -295,25 +295,25 @@ main{
       font-size: 1em;
     }
     .projectsCard:nth-child(1) {
-      background: url("../assets/images/Assignment2.png");
+      background: url("../assets/images/ElevateSuits.jpg");
       background-size: cover;
       background-position: center;
       overflow: hidden;
     }
     .projectsCard:nth-child(2) {
-      background: url("../assets/images/Assignment3.png");
+      background: url("../assets/images/PerfectPaw.jpg");
       background-size: cover;
       background-position: center;
       overflow: hidden;
     }
     .projectsCard:nth-child(3) {
-      background: url("../assets/images/Assigment4HTML.png");
+      background: url("../assets/images/TheManeLounge.jpg");
       background-size: cover;
       background-position: center;
       overflow: hidden;
     }
 .projectsCard:nth-child(4) {
-      background: url("../assets/images/Movie_Madness_site.png");
+      background: url("../assets/images/MovieMadness.jpg");
       background-size: cover;
       background-position: center;
       overflow: hidden;
