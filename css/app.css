@@ -122,24 +122,6 @@ main{
   padding: 25px 45px;
   color: #fff;
 }
-#projects {
-  display: grid;
-  grid-area: pro;
-  width: 100%;
-  background: #c316ef;
-  border-top: 1px solid #222;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 25px 45px;
-  align-items: center;
-  justify-items: center;
-}
-#assignments {
-  grid-area: asg;
-  width: 100%;
-  padding: 40px 45px;
-  background: #000;
-  border-top: 1px solid #222;
-}
 #skills {
   display: grid;
   grid-area: skl;
@@ -151,10 +133,12 @@ main{
   align-items: center;
   justify-items: center;
   column-gap:45px;
+
 }
   #skills > i {
     font-size: 3.2em;
   }
+
 #contact {
   display: grid;
   grid-area: con;
@@ -250,7 +234,6 @@ main{
     box-shadow: 0 10px 35px rgba(124, 17, 167, 0.15);
     margin: 0;
 }
-
 #projects {
   display: grid;
   grid-area: pro;
@@ -308,62 +291,7 @@ main{
       background-position: center;
       overflow: hidden;
 }
-.photoshopContainer {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    gap: 30px;
-    width: 90%;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-.photoshopContainer .projectCard {
-    flex: 1;
-    min-width: 0;
-    padding: 25px;
-    background: white;
-    border-radius: 20px;
-    text-align: center;
-    box-sizing: border-box;
-}
-.photoshopContainer .projectPreview {
-    width: 100%;
-    height: 500px;
-    object-fit: contain;
-    display: block;
-}
-.projectCards {
-    max-width: 450px;
-    height: 80%;
-    padding: 20px;
-    border-radius: 20px;
-    background: #000;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 0.85em;
-}
-.projectPreview {
-    width: 100%;
-    border-radius: 15px;
-    display: block;
-    transition: transform 0.3s ease;
-}
-.projectPreview:hover {
-    transform: scale(1.02);
-}
-.projectButton {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 12px 24px;
-    background: #7c11a7;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
-}
-.projectButton:hover {
-    background: #96306f;
-}
+
 /* LABELS */
 .contactForm label {
     display: block;
@@ -431,26 +359,7 @@ main{
   color: #ff8fb1;
   text-decoration: underline;
 }
-/*======================================*/
-/*========== MEDIA QUERIES ============*/
-@media screen and (max-width: 1440px) {
-  header {
-    background-position-y: 0;
-  }
-  #ownerPic {
-    width: 100%;
-    margin: 15px auto;
-    border: 3px solid #fff;
-  }
-  #skills > i {
-    font-size: 4.2em;
-  }
-  .workCard {
-    width: 96%;
-    padding: 5px 10px;
-    margin: 1% 2%;
-  }
-}
+
 @media screen and (max-width: 1050px) {
   #grid {
     grid-template-columns: repeat(6, 1fr);
@@ -462,6 +371,9 @@ main{
       "skl skl skl skl skl skl"
       "con con con con con con"
       "ftr ftr ftr ftr ftr ftr";
+      header {
+    background-position-y: 0;
+  }
   }
   #project {
     grid-template-columns: repeat(3, 1fr);
