@@ -133,6 +133,13 @@ main{
   align-items: center;
   justify-items: center;
 }
+#assignments {
+  grid-area: asg;
+  width: 100%;
+  padding: 40px 45px;
+  background: #000;
+  border-top: 1px solid #222;
+}
 #skills {
   display: grid;
   grid-area: skl;
@@ -466,6 +473,7 @@ main{
     .contact-section {
         padding: 50px 5%;
     }
+
     .contactForm {
         padding: 25px;
     }
