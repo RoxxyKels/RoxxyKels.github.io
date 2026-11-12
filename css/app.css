@@ -270,12 +270,10 @@ main{
   padding: 25px 45px;
   color: #c99bea;
   grid-template-columns: repeat(2, 1fr);
-
 }.projectsTitle {
   color: #c99bea;
   font-size: 1.6em;
 }
-
   .projectsCard {
     width: 95%;
     min-height: 500px;
@@ -320,7 +318,6 @@ main{
       background-position: center;
       overflow: hidden;
 }
-
 .photoshopContainer {
     display: flex;
     justify-content: center;
@@ -330,7 +327,6 @@ main{
     max-width: 1000px;
     margin: 0 auto;
 }
-
 .photoshopContainer .projectCard {
     flex: 1;
     min-width: 0;
@@ -340,7 +336,6 @@ main{
     text-align: center;
     box-sizing: border-box;
 }
-
 .photoshopContainer .projectPreview {
     width: 100%;
     height: 500px;
@@ -357,18 +352,15 @@ main{
     margin: 0 auto;
     font-size: 0.85em;
 }
-
 .projectPreview {
     width: 100%;
     border-radius: 15px;
     display: block;
     transition: transform 0.3s ease;
 }
-
 .projectPreview:hover {
     transform: scale(1.02);
 }
-
 .projectButton {
     display: inline-block;
     margin-top: 15px;
@@ -379,13 +371,10 @@ main{
     border-radius: 30px;
     font-weight: bold;
 }
-
 .projectButton:hover {
     background: #96306f;
 }
-
 /* LABELS */
-
 .contactForm label {
     display: block;
     margin: 18px 0 8px;
@@ -393,9 +382,7 @@ main{
     color: #292333;
     text-align: left;
 }
-
 /* INPUTS */
-
 .contactForm input,
 .contactForm select,
 .contactForm textarea {
@@ -408,9 +395,7 @@ main{
     background-color: #ffffff;
     color: #333;
 }
-
 /* FOCUS EFFECT */
-
 .contactForm input:focus,
 .contactForm select:focus,
 .contactForm textarea:focus {
@@ -418,15 +403,10 @@ main{
     border-color: #8b5cf6;
     box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.15);
 }
-
 /* TEXTAREA */
-
 .contactForm textarea {
     resize: vertical;
 }
-
-/* BUTTON */
-
 .contactForm button {
     margin-top: 25px;
     padding: 13px 25px;
@@ -439,9 +419,27 @@ main{
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 .contactForm button:hover {
     background-color: #4c1d95;
+}
+#footer {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+  background: #140a26;
+  color: #f1e2ff;
+  border-top: 2px solid #7c11a7;
+}#footer nav a {
+  margin-left: 1.25rem;
+  color: #c58bff;
+  text-decoration: none;
+}
+#footer nav a:hover {
+  color: #ff8fb1;
+  text-decoration: underline;
 }
 /*======================================*/
 /*========== MEDIA QUERIES ============*/
