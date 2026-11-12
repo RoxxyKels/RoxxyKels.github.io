@@ -319,6 +319,14 @@ main{
       background-position: center;
       overflow: hidden;
 }
+.projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto 35px;
+}
 .photoshopContainer {
     display: flex;
     justify-content: center;
