@@ -113,15 +113,6 @@ main{
     "con con con con con con con con con con con con"
     "ftr ftr ftr ftr ftr ftr ftr ftr ftr ftr ftr ftr";
 }
-#about {
-  display: grid;
-  grid-area: abt;
-  width: 100%;
-  background: #000;
-  border-top: 1px solid #222;
-  padding: 25px 45px;
-  color: #fff;
-}
 #skills {
   display: grid;
   grid-area: skl;
@@ -166,74 +157,41 @@ main{
     line-height: 1.3;
     font-size: 0.9em;
 }
-#intro {
+#about {
     display: grid;
+    grid-area: abt;
     grid-template-columns: 1.5fr 1fr;
     align-items: center;
     gap: 60px;
+    width: 100%;
     padding: 80px 8%;
-    background-color: #000;
+    background: #000;
+    color: #fff;
 }
+
 .introText {
     display: grid;
     grid-template-columns: 1fr;
     gap: 25px;
     justify-items: start;
-    grid-column: 1;
     min-width: 0;
 }
-.introText h2 {
-    font-size: 1.6rem;
-    color: #c99bea;
-    margin: 0;
-    letter-spacing: 2px;
-}
-.introText p {
-    font-size: 1.4rem;
-    margin: 0;
-    max-width: 650px;
-}
 
-/* BUTTONS */
-.IntroButtons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 10px;
-}
-.btnPrimary,
-.btnSecondary {
-    display: inline-block;
-    padding: 14px 25px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-}
-.btnPrimary {
-    background: #7c11a7;
-    color: #ffffff;
-}
-.btnSecondary {
-    border: 2px solid #7c11a7;
-    color: #ffffff;
-}
 .introImage {
-    grid-column: 2;
     display: grid;
     justify-items: right;
     min-width: 0;
 }
+
 .introImage img {
     width: 100%;
-    height: 80%;
     max-width: 450px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    border: 2px solid #ffffff;
+    border: 2px solid #fff;
     border-radius: 6px;
-    box-shadow: 0 10px 35px rgba(124, 17, 167, 0.15);
-    margin: 0;
 }
+
 #projects {
   display: grid;
   grid-area: pro;
