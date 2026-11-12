@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery.js" defer async></script>
+  <script src="js/app.js" defer async></script>
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="js/app.js">
+  <title>RoxxyKels Portfolio</title>
+</head>
+<body id="top">
+  <a href="#top" title="home" onclick="closeMenu();">
+    <img id="logo" src="assets/images/RoxxyKels Logo (2).png" alt="Logo">
+  </a>
+  <div id="hamburger" onclick="toggleMenu();">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  <nav id="mobileNav">
+    <a href="#about" onclick="closeMenu();">About</a><br>
+    <a href="#projects" onclick="closeMenu();">Projects</a><br>
+    <a href="#skills" onclick="closeMenu();">Skills</a><br>
+    <a href="#contact" onclick="closeMenu();">Contact</a>
+</nav>
+  <!-- GRID CODE -->
+   <div id="grid">
+    <header></header>
+    <div id="about">
+<h1>Welcome to RoxxyKels Portfolio</h1>
+    <div class="introText">
+        <h2>WEB DEVELOPMENT • UI/UX • DIGITAL MARKETING</h2>
+        <p>
+            Hello, I'm Racquel. I aim to create impactful digital
+            experiences that combine thoughtful design, technical
+            execution, and strategic thinking. By bringing together
+            web development, UI/UX design, and digital marketing,
+            I contribute a multidisciplinary perspective that helps
+            projects become more functional, engaging, and aligned
+            with their objectives.
+        </p>
+        <div class="IntroButtons">
+            <a href="projects.html" class="btnPrimary">Explore Projects</a>
+            <a href="contact.html" class="btnSecondary">Let's Connect</a>
+        </div>
+    </div>
+    <!-- RIGHT COLUMN: IMAGE -->
+    <div class="introImage">
+        <img src="assets/images/introImage.jpg"
+             alt="RoxxyKels portfolio profile">
+    </div>
+</section>
+            </div>
+        </section>
+<div id="projects">
+      <div class="projectsCard">
+        <h2>Elevate Suit Designs</h2>
+      </div>
+      <div class="projectsCard">
+        <h2>Perfect Paw Pet Photography</h2>
+      </div>
+      <div class="projectsCard">
+        <h2>The Mane Lounge Salon</h2>
+      </div>
+      <div class="projectsCard">
+        <h2>Movie Madness</h2>
+      </div>
+    </div>
+<div class="photoshopContainer">
+    <div class="projectCard">
+        <img src="assets/images/Racquel_Photoshop_1.jpg"
+             alt="Music is Joy and Peace Photoshop design"
+             class="projectPreview">
+        <h3>Music is Joy and Peace</h3>
+        <p>A Photoshop design project.</p>
+    </div>
+    <div class="projectCard">
+        <img src="assets/images/Racquel_Photoshop_2.jpg"
+             alt="Move with Confidence Photoshop design"
+             class="projectPreview">
+        <h3>Move with Confidence</h3>
+        <p>A Photoshop design project.</p>
+    </div>
+</div>
+<div class="projectCards">
+  <a href="https://www.figma.com/proto/u5jfmqrqMuZQ6O6v4RxfPa/Racquel-UIUX-4?page-id=1%3A2&node-id=40-788&starting-point-node-id=73%3A1490"
+     target="_blank"
+     rel="noopener noreferrer">
+    <img src="assets/images/cloud_nine-spa.png"
+         alt="Cloud Nine Spa mobile app prototype preview"
+         class="projectPreview">
+  </a>
+  <h3>Cloud Nine Spa</h3>
+  <p>
+    A mobile spa booking experience designed in Figma,
+    featuring appointment scheduling, packages,
+    checkout, and customer reviews.
+  </p>
+  <a href="https://www.figma.com/proto/u5jfmqrqMuZQ6O6v4RxfPa/Racquel-UIUX-4?page-id=1%3A2&node-id=40-788&starting-point-node-id=73%3A1490"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="projectButton">
+    View Interactive Prototype →
+
+  </a>
+</div>
+</div>
+  </section>
+      <div id="skills">
+      <i class="devicon-javascript-plain"></i>
+      <i class="devicon-linux-plain"></i>
+      <i class="devicon-html5-plain"></i>
+      <i class="devicon-css3-plain"></i>
+      <i class="devicon-java-plain-wordmark"></i>
+      <i class="devicon-swift-plain"></i>
+      <i class="devicon-figma-plain"></i>
+      <i class="devicon-photoshop-plain"></i>
+      <i class="devicon-canva-original"></i>
+      <i class="devicon-illustrator-plain"></i>
+      <i class="devicon-vscode-plain"></i>
+      <i class="devicon-github-original"></i>
+    </div>
+
+  <section class="cta-section">
+            <h2>Let's Build Something Amazing.</h2>
+            <p>Have an opportunity, project, or idea worth exploring?</p>
+            <a href="contact.html" class="btn-primary">Get In Touch</a>
+        </section>
+</main>
+  
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact-section">
+    <form class="contactForm" id="contactForm">
+        <h2>Let's Connect</h2>
+        <p>
+            Interested in working together, discussing an opportunity,
+            or reviewing my projects? I'd love to hear from you.
+        </p>
+        <!-- Full Name -->
+        <label for="name">Full Name</label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+            autocomplete="name"
+            required
+        >
+        <!-- Email -->
+        <label for="email">Email Address</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            autocomplete="email"
+            required
+        >
+        <!-- Inquiry Type -->
+        <label for="inquiry">What would you like to discuss?</label>
+        <select id="inquiry" name="inquiry" required>
+            <option value="">Select an inquiry type</option>
+            <option value="employment">Employment Opportunity</option>
+            <option value="freelance">Freelance Project</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="portfolio">Portfolio Feedback</option>
+            <option value="other">Other Inquiry</option>
+        </select>
+        <!-- Message -->
+        <label for="message">Message</label>
+        <textarea
+            id="message"
+            name="message"
+            placeholder="Tell me a little about your inquiry..."
+            rows="6"
+            required
+        ></textarea>
+
+        <!-- Submit -->
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</section>
+
+
+</body>
+<footer>
+
+</footer>
+
+  <div id="topBtn" onclick="closeMenu();">
+    <a href="#top">
+      &uparrow;
+    </a>
+  </div>
+  </html>
