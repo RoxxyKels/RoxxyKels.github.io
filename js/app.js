@@ -90,8 +90,7 @@ $(document).ready(function () {
             }, 700);
         }
     });
-}); 
-// ===== SKILLS EXPLORER =====
+});
 (function () {
     const $skills = $('#skills');
     if (!$skills.length) return;
