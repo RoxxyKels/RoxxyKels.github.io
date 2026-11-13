@@ -257,12 +257,45 @@ main{
 }
 #assignments {
     display: grid;
-    grid-area: asg;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    padding: 50px 45px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px 45px;
     background: #000;
     border-top: 1px solid #222;
+    align-items: stretch;
+    justify-items: center;
+}
+
+/* Assignment cards */
+#assignments > .assignmentCard {
+width: 100%;
+min-height: 500px;
+    background: #000;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 7px #333;
+    padding: 15px 25px;
+    border: 3px solid #333;
+    text-align: center;
+}
+
+/* Assignment images */
+#assignments > .assignmentCard > img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+#assignments h3 {
+    color: #fff;
+    font-size: 1em;
+}
+#assignments p {
+    color: #c99bea;
+    font-size: 0.85em;
 }
 /* LABELS */
 .contactForm label {
@@ -322,11 +355,9 @@ main{
     color: #f1e2ff;
     border-top: 2px solid #7c11a7;
 }
-
 .footerLogo img {
     width: 80px;
 }
-
 .footerNav {
     width: 100%;
     display: flex;
@@ -336,12 +367,10 @@ main{
     padding: 20px 0;
     border-top: 1px solid #411a69;
 }
-
 #footer nav a {
     color: #c58bff;
     text-decoration: none;
 }
-
 #footer nav a:hover {
     color: #ff8fb1;
     text-decoration: underline;
@@ -354,8 +383,6 @@ main{
     border-top: 1px solid #411a69;
     padding-top: 15px;
 }
-
-
 @media screen and (max-width: 1050px) {
   #grid {
     grid-template-columns: repeat(6, 1fr);
@@ -381,7 +408,6 @@ main{
     .contact-section {
         padding: 50px 5%;
     }
-
     .contactForm {
         padding: 25px;
     }
@@ -393,12 +419,10 @@ main{
         text-align: center;
         gap: 40px;
     }
-
     .introText {
         grid-column: 1;
         justify-items: center;
     }
-
     .IntroButtons {
         justify-content: center;
     }
@@ -416,7 +440,6 @@ main{
     .projectsContainer {
         flex-direction: column;
     }
-
     .projectCard {
         width: 100%;
     }
