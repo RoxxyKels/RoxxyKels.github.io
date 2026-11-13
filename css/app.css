@@ -128,7 +128,7 @@ main{
   #skills h2 {
     grid-column: 1 / -1;
     text-align: center;
-    color: #a855f7;
+    color: #c99bea;
     margin: 0 0 30px;
     padding-top: 20px;
 }
@@ -152,7 +152,7 @@ main{
     border-radius: 12px;
 }
 .contactForm h2 {
-    color: #a855f7;
+    color: #c99bea;
     font-size: 28px;
     margin-bottom: 15px;
 
@@ -186,6 +186,9 @@ main{
     display: grid;
     justify-items: right;
     min-width: 0;
+}
+.introText h2 {
+    color: #c99bea;
 }
 .introImage img {
     width: 100%;
