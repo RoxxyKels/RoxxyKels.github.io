@@ -295,7 +295,7 @@ main{
   min-width: 0;
   padding: 15px 25px;
   background: #140a26;
-  border: 3px solid #333;
+  border: 1px solid #fff;
   border-radius: 8px;
   box-shadow: 3px 3px 7px #333;
   text-align: center;
